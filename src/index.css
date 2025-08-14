@@ -12,7 +12,24 @@ code {
 .buttons-row {
   display: flex;
   gap: 1rem;
+  margin: 2rem;
 }
+
 .buttons-row button {
+  padding: 0.5rem 1rem;
+}
+
+.counter-box {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 2rem;
+  width: fit-content;
+  border: 1px black solid;
+}
+
+.counter-box button {
+  background-color: blue;
+  color: white;
   padding: 0.5rem 1rem;
 }
