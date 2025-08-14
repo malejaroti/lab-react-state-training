@@ -33,3 +33,9 @@ code {
   color: white;
   padding: 0.5rem 1rem;
 }
+
+.dice {
+  width: 200px;
+  height: 200px;
+  margin: 2rem;
+}
