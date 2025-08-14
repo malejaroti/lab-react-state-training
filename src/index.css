@@ -17,6 +17,7 @@ code {
 
 .buttons-row button {
   padding: 0.5rem 1rem;
+  font-size: 1.4rem;
 }
 
 .counter-box {
@@ -38,4 +39,14 @@ code {
   width: 200px;
   height: 200px;
   margin: 2rem;
+}
+
+.btn-red {
+  color: white;
+  background-color: red;
+}
+
+.btn-blue {
+  color: white;
+  background-color: blue;
 }

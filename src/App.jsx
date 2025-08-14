@@ -2,6 +2,7 @@ import "./App.css";
 import ClickablePicture from "./components/ClickablePicture";
 import Counter from "./components/Counter";
 import Dice from "./components/Dice";
+import DiscoButton from "./components/DiscoButton";
 import LikeButton from "./components/LikeButton";
 
 function App() {
@@ -17,6 +18,11 @@ function App() {
 
       <ClickablePicture/>
       <Dice />
+
+      <div className="buttons-row">
+      <DiscoButton />
+      <DiscoButton />
+      </div>
     </div>
   );
 }
