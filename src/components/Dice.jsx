@@ -16,6 +16,7 @@ function Dice() {
     const handleDiceRoll = () => { 
         let randomNum = Math.floor(Math.random()* dices.length)+1
         console.log(randomNum)
+        setDiceValue(diceEmpty) 
         setTimeout(() => {
             setDiceValue(dices[randomNum-1]) 
         }, 1000);
