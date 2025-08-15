@@ -50,3 +50,17 @@ code {
   color: white;
   background-color: blue;
 }
+
+.carousel {
+  border: 1px solid black;
+  width: fit-content;
+  margin: 1rem;
+}
+
+.carousel button {
+  font-size: 2rem;
+  margin: auto 1rem;
+}
+.carousel img {
+  width: 300px;
+}
